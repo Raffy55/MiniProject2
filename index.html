@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brgy. San Diego</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/chat.css">
+    <script src="js/response.js" defer></script>
+    <script type="module" src="js/chat.js" defer></script>
+</head>
+<body>
+
+    <div class="main">
+        <div class="center">
+
+            <div class="logodiv">
+                <img src="images/logo.png" alt="Brngy. logo">
+            </div>
+
+            <div class="inputdiv">
+                <form action="#" method="#" id="logform">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username">
+
+                    <label for="username">Password:</label>
+                    <input type="password" id="pass">
+
+                    <p onclick="login()" href="#" class="login">Log in</p>
+                    <p id="error"></p>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="bottomdiv">
+            <div class="registerdiv">
+                <p>Not yet registered?</p>
+                <a href="form.html">REGISTER NOW</a>
+            </div>
+
+            <div class="chatdiv">
+                <div class="container collapse">
+                    <div class="chat-header collapse">
+                        <div class="logo">
+                            <img src="images/messenger.png" alt="cwt">
+                        </div>
+            
+                        <div class="title">Let's chat!</div>
+                    </div>
+            
+                    <div class="chat-body collapse">
+                        <div class="loading hide">
+                            <div class="circle circle-1"></div>
+                            <div class="circle circle-2"></div>
+                            <div class="circle circle-3"></div>
+                        </div>
+                    </div>
+            
+                    <div class="chat-input collapse">
+                        <div class="input-sec">
+                            <input type="text" id="txtInput" placeholder="Type here" autofocus>
+                        </div>
+                        <div class="send">
+                            <img src="images/send.svg" alt="send" class="sendico">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    background-color: #11101D;
+}
+
+.center {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputdiv {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    color: white;
+    font-size: 20px;
+}
+
+.inputdiv label {
+    margin-bottom: 5px;
+}
+
+.inputdiv input {
+    margin-bottom: 10px;
+    height: 25px;
+    width: 200px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login {
+    color: white;
+    text-decoration: none;
+    background-color: #5f51d8;
+    text-align: center;
+    border-radius: 30px;
+    width: 80px;
+    height: 35px;
+    transition: 0.3s;
+    padding: 3px;
+}
+
+.login:hover {
+    background-color: #1f71a0;
+}
+
+#error {
+    color: red;
+}
+
+.bottomdiv {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.registerdiv {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    width: 50%;
+}
+
+.registerdiv p {
+    padding-right: 20px;
+}
+
+.registerdiv a {
+    color: white;
+    text-decoration: none;
+    background-color: #5f51d8;
+    text-align: center;
+    padding-top: 7px;
+    width: 175px;
+    height: 40px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.registerdiv a:hover {
+    background-color: #1f71a0;
+}
+
+.chatdiv {
+    display: flex;
+    justify-content: end;
+    width: 50%;
+    padding-right: 30px;
+}
+
+@media (max-width: 700px) {
+    .center {
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        margin-bottom: 0;
+    }
+
+    .logodiv img {
+        width: 200px;
+    }
+
+    .bottomdiv {
+        margin-top: 0;
+        flex-direction: row;
+    }
+
+    .registerdiv {
+        justify-content: center;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+
+    .registerdiv a {
+        font-size: 12px;
+    }
+
+    /* .chatdiv img {
+        width: 50px;
+    }
+
+
+    .container {
+        width: 350px;
+    } */
+}
